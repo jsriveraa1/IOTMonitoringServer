@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'control',
     'receiver',
     'viewer',
-    "crispy_forms",
     "crispy_bootstrap4",
 ]
 
