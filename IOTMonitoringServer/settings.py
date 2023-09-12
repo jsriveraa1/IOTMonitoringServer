@@ -173,7 +173,7 @@ MQTT_PASSWORD_PUB = "admin2"
 TOPIC = "+/+/+/+/out"
 
 # Opción para habilitar la transmisión de mensajes segura
-MQTT_USE_TLS = True
+MQTT_USE_TLS = False
 
 # Ubicación del archivo de certificado para conexión TLS con el bróker MQTT
 CA_CRT_FILE = "ssl/ca.crt"
