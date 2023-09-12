@@ -70,6 +70,7 @@ try:
     client.on_disconnect = on_disconnect
 
     if settings.MQTT_USE_TLS:
+        print("Validando..." + settings.CA_CRT_PATH)
         client.tls_set(ca_certs=settings.CA_CRT_PATH,
                        tls_version=ssl.PROTOCOL_TLSv1_2, cert_reqs=ssl.CERT_NONE)
 
